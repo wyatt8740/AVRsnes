@@ -143,7 +143,7 @@ void loop() {
       Keyboard.press('z');
     }
     else {
-      Mouse.move(0, 2, 0);
+      Mouse.move(0, 6, 0);
     }
   }
   else {
@@ -158,7 +158,7 @@ void loop() {
       Keyboard.press('s');
     }
     else {
-      Mouse.move(-2, 0, 0);
+      Mouse.move(-8, 0, 0);
     }
   }
   else {
@@ -198,11 +198,17 @@ void loop() {
     {
       Keyboard.press(KEY_RETURN);
     }
+    else {
+      Keyboard.press(' ');
+    }
   }
   else {
     if(currentMode==0)
     {
       Keyboard.release(KEY_RETURN);
+    }
+    else {
+      Keyboard.release(' ');
     }
   }
   if (state & SNES_UP) {
@@ -283,7 +289,7 @@ void loop() {
       Keyboard.press('x');
     }
     else {
-      Mouse.move(2, 0, 0);
+      Mouse.move(8, 0, 0);
     }
   }
   else {
@@ -298,7 +304,7 @@ void loop() {
       Keyboard.press('a');
     }
     else {
-      Mouse.move(0, -2, 0);
+      Mouse.move(0, -6, 0);
     }
   }
   else {
