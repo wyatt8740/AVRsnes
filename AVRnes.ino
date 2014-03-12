@@ -210,17 +210,26 @@ void loop() {
     {
     Keyboard.press(KEY_UP_ARROW);
     }
+    else if (currentMode==1) {
+    Keyboard.press('w'); //for minecraft
+    }
   }
   else {
     if(currentMode==0)
     {
       Keyboard.release(KEY_UP_ARROW);
     }
+    else if (currentMode==1) {
+      Keyboard.release('w');
+    }
   }
   if (state & SNES_DOWN) {
     if(currentMode==0)
     {
       Keyboard.press(KEY_DOWN_ARROW);
+    }
+    else if(currentMode==1) {
+      Keyboard.press('s');
     }
   }
   else {
