@@ -17,20 +17,20 @@ To change modes, press L+R+Start.
 
 
 
-Default Mode
-SNES	--	Keyboard
-A	--	X
-B	--	Z
-X	--	S
-Y	--	A
-L	--	D
-R	--	C
-UP	--	UP
-DOWN	--	DOWN
-LEFT	--	LEFT
-RIGHT	--	RIGHT
-START	-- 	RETURN/ENTER
-SELECT	--	BACKSPACE
+Default Mode  
+SNES	--	Keyboard  
+A	--	X  
+B	--	Z  
+X	--	S  
+Y	--	A  
+L	--	D  
+R	--	C  
+UP	--	UP  
+DOWN	--	DOWN  
+LEFT	--	LEFT  
+RIGHT	--	RIGHT  
+START	-- 	RETURN/ENTER  
+SELECT	--	BACKSPACE  
 
 
 There are some key combinations in minecraft-mode.
