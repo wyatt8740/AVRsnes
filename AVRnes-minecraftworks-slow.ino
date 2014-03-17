@@ -18,6 +18,11 @@ under GPLv3 as well.
 The original nespad/snespad library code is here:
 http://code.google.com/p/nespad/
 
+---------PINOUTS----------
+
+// arduino pins and their connection to the snes gamepad
+// default: digital pin 2=strobe, 3=clock, 4=data
+
 */
 #ifndef SNESpad_h
 #define SNESpad_h
