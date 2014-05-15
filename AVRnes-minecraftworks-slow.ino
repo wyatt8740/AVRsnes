@@ -160,7 +160,7 @@ void loop() {
   if (state & SNES_Y) {
     if(currentMode==0)
     {
-      Keyboard.press('s');
+      Keyboard.press('a');
     }
     else {
       Mouse.move(-8, 0, 0);
@@ -169,7 +169,7 @@ void loop() {
   else {
     if(currentMode==0)
     {
-      Keyboard.release('s');
+      Keyboard.release('a');
     }
   }
   if (state & SNES_SELECT) {
@@ -306,7 +306,7 @@ void loop() {
   if (state & SNES_X) {
     if(currentMode==0)
     {
-      Keyboard.press('a');
+      Keyboard.press('s');
     }
     else {
       Mouse.move(0, -6, 0);
@@ -315,7 +315,7 @@ void loop() {
   else {
     if(currentMode==0)
     {
-      Keyboard.release('a');
+      Keyboard.release('s');
     }
   }
   if (state & SNES_L) {
